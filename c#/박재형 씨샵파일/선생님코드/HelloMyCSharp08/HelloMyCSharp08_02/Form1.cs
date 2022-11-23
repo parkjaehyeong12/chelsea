@@ -58,10 +58,5 @@ namespace HelloMyCSharp08_02
             t.MoveLeft();
             t.MoveRight();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
