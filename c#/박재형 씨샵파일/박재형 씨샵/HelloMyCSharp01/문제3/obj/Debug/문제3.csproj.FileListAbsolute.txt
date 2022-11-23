@@ -1,0 +1,8 @@
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\bin\Debug\문제3.exe.config
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\bin\Debug\문제3.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\bin\Debug\문제3.pdb
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\obj\Debug\문제3.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\obj\Debug\문제3.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\obj\Debug\문제3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\obj\Debug\문제3.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\문제3\obj\Debug\문제3.pdb

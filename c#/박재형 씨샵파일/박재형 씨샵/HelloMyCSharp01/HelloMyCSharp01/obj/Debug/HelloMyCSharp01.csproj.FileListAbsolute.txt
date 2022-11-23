@@ -1,0 +1,8 @@
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\bin\Debug\HelloMyCSharp01.exe.config
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\bin\Debug\HelloMyCSharp01.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\bin\Debug\HelloMyCSharp01.pdb
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\obj\Debug\HelloMyCSharp01.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\obj\Debug\HelloMyCSharp01.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\obj\Debug\HelloMyCSharp01.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\obj\Debug\HelloMyCSharp01.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\HelloMyCSharp01\obj\Debug\HelloMyCSharp01.pdb

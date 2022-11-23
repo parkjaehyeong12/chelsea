@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\bin\Debug\스왑.exe.config
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\bin\Debug\스왑.exe
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\bin\Debug\스왑.pdb
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.Form1.resources
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.Properties.Resources.resources
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.exe
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp06\스왑\obj\Debug\스왑.pdb

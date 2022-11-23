@@ -1,0 +1,22 @@
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\bin\Debug\복권.exe.config
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\bin\Debug\복권.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\bin\Debug\복권.pdb
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.Form1.resources
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.Properties.Resources.resources
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.pdb
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\bin\Debug\복권.exe.config
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\bin\Debug\복권.exe
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\bin\Debug\복권.pdb
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.Form1.resources
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.Properties.Resources.resources
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.exe
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp05\복권\obj\Debug\복권.pdb

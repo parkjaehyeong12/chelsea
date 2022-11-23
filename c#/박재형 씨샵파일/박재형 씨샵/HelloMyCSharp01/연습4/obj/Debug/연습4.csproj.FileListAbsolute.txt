@@ -1,0 +1,8 @@
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\obj\Debug\연습4.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\obj\Debug\연습4.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\obj\Debug\연습4.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\bin\Debug\연습4.exe.config
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\bin\Debug\연습4.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\bin\Debug\연습4.pdb
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\obj\Debug\연습4.exe
+C:\Users\KB\Desktop\박재형\박재형 씨샵\HelloMyCSharp01\연습4\obj\Debug\연습4.pdb
