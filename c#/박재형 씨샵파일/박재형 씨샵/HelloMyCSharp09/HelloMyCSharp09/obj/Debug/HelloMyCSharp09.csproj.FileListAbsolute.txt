@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\bin\Debug\HelloMyCSharp09.exe.config
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\bin\Debug\HelloMyCSharp09.exe
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\bin\Debug\HelloMyCSharp09.pdb
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.Form1.resources
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.Properties.Resources.resources
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.exe
+C:\Users\KB\Desktop\박재형 씨샵파일\박재형 씨샵\HelloMyCSharp09\HelloMyCSharp09\obj\Debug\HelloMyCSharp09.pdb
