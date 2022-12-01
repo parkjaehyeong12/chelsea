@@ -1,0 +1,99 @@
+<results>
+<currentCount>10</currentCount>
+<data>
+<item>
+<col name="조사규격(통계청 기준)">20(리터)</col>
+<col name="품 목 명">쓰레기봉투료</col>
+<col name="금액(평균값)">620</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">620</col>
+<col name="전월금액(평균값)">620</col>
+<col name="전월대비상승율">0.0</col>
+</item>
+<item>
+<col name="조사규격(통계청 기준)">기본 750(리터)</col>
+<col name="품 목 명">정화조청소료</col>
+<col name="금액(평균값)">21053</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">21053</col>
+<col name="전월금액(평균값)">21053</col>
+<col name="전월대비상승율">0.0</col>
+</item>
+<item>
+<col name="금액(평균값)">8400</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">8400</col>
+<col name="전월금액(평균값)">8400</col>
+<col name="전월대비상승율">0.0</col>
+<col name="조사규격(통계청 기준)">1인분(보통)</col>
+<col name="품 목 명">설렁탕</col>
+</item>
+<item>
+<col name="금액(평균값)">7800</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">7800</col>
+<col name="전월금액(평균값)">7800</col>
+<col name="전월대비상승율">0.0</col>
+<col name="조사규격(통계청 기준)">물냉면, 1인분(보통)</col>
+<col name="품 목 명">냉면</col>
+</item>
+<item>
+<col name="전월값(평균)">5800</col>
+<col name="전월금액(평균값)">5800</col>
+<col name="전월대비상승율">-1.8</col>
+<col name="조사규격(통계청 기준)">1인분(보통)</col>
+<col name="품 목 명">비빔밥</col>
+<col name="금액(평균값)">5700</col>
+<col name="데이터기준일자">2021-09-07</col>
+</item>
+<item>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">13200</col>
+<col name="전월금액(평균값)">13200</col>
+<col name="전월대비상승율">0.0</col>
+<col name="조사규격(통계청 기준)">1인분(보통)</col>
+<col name="품 목 명">갈비탕</col>
+<col name="금액(평균값)">13200</col>
+</item>
+<item>
+<col name="품 목 명">삼계탕</col>
+<col name="금액(평균값)">13600</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">13600</col>
+<col name="전월금액(평균값)">13600</col>
+<col name="전월대비상승율">0.0</col>
+<col name="조사규격(통계청 기준)">1인분(보통)</col>
+</item>
+<item>
+<col name="금액(평균값)">6600</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">6700</col>
+<col name="전월금액(평균값)">6700</col>
+<col name="전월대비상승율">-1.5</col>
+<col name="조사규격(통계청 기준)">1인분(보통)</col>
+<col name="품 목 명">김치찌개백반</col>
+</item>
+<item>
+<col name="전월값(평균)">5500</col>
+<col name="전월금액(평균값)">5500</col>
+<col name="전월대비상승율">0.0</col>
+<col name="조사규격(통계청 기준)">1인분(보통)</col>
+<col name="품 목 명">된장찌개백반</col>
+<col name="금액(평균값)">5500</col>
+<col name="데이터기준일자">2021-09-07</col>
+</item>
+<item>
+<col name="금액(평균값)">17000</col>
+<col name="데이터기준일자">2021-09-07</col>
+<col name="전월값(평균)">17000</col>
+<col name="전월금액(평균값)">17000</col>
+<col name="전월대비상승율">0.0</col>
+<col name="조사규격(통계청 기준)">쇠고기200g정도</col>
+<col name="품 목 명">불고기</col>
+</item>
+</data>
+<matchCount>43</matchCount>
+<page>1</page>
+<perPage>10</perPage>
+<totalCount>43</totalCount>
+</results>
