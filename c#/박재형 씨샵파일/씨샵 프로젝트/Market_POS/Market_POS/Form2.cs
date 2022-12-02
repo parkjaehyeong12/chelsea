@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+using System.Xml.Linq;
+using System.Collections;
 
 namespace Market_POS
 {
@@ -21,7 +25,13 @@ namespace Market_POS
         public Form2()
         {
             InitializeComponent();
+            dataGridView1.DataSource = null;
+            DataManager.Load();
+            dataGridView1.DataSource = DataManager.Sales;
+
         }
+
+
 
         public void LoadData()
         {
@@ -42,7 +52,7 @@ namespace Market_POS
                 da = new SqlDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds, "sales_tb");
-                // da.Fill(ds, "[인천광역시 서구_물가정보_20210907]");
+            
                 dt = ds.Tables[0];
             }
             catch (Exception e)
@@ -66,14 +76,144 @@ namespace Market_POS
 
         }
 
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            pos_dataset Sales =
+                dataGridView1.CurrentRow.DataBoundItem as pos_dataset;
+
+            textBox2.Text = Sales.no.ToString();
+            textBox3.Text = Sales.name.ToString();
+            textBox4.Text = Sales.price.ToString();
+            textBox5.Text = Sales.count.ToString();
+            textBox6.Text = Sales.total.ToString();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("검색 정보를 입력해주세요");
+            }
+            else
+            {
+                try
+                {
+                    string valueToSearch = textBox1.Text;
+                    DBHelper.searchData(valueToSearch);
+                    MessageBox.Show($"{textBox1.Text}을 조회합니다.....");
+
+                    dataGridView1.DataSource = null;
+                    DataManager.Load();
+                    dataGridView1.DataSource = DataManager.Sales;
+
+                }
+                catch (Exception er)
+                {
+
+                    MessageBox.Show(er.Message+" 조회 오류");
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
+
+
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string no = textBox2.Text;
+            DBHelper.deleteSales(no);
+            MessageBox.Show($"{no}이 삭제되었습니다.....");
+            dataGridView1.DataSource = null;
+            DataManager.Load();
+            dataGridView1.DataSource = DataManager.Sales;
+        }
+
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = null;
+            DataManager.Load();
+            dataGridView1.DataSource = DataManager.Sales;
+
+            try
+            {
+                //+"" 하든지 .ToString() 하기
+                textBox2.Text = DataManager.Sales[0].no.ToString();
+                textBox3.Text = DataManager.Sales[0].name.ToString();
+                textBox4.Text = DataManager.Sales[0].price.ToString();
+                textBox5.Text = DataManager.Sales[0].count.ToString();
+                textBox6.Text = DataManager.Sales[0].total.ToString();
+
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            if (DataManager.Sales.Count > 0)
+            {
+
+                dataGridView1.DataSource = DataManager.Sales;
+            }
+        }
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        //수정하기
+        private void button2_Click(object sender, EventArgs e)
         {
-            LoadData();
+
+            if (textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "")
+            {
+                MessageBox.Show("항목을 정확히 입력해주세요");
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+            }
+
+            else
+            {
+                int price = int.Parse(textBox4.Text);
+                int count = int.Parse(textBox5.Text);
+                int total = price * count;
+
+                textBox5.Text = total.ToString();
+
+                try
+                {
+                    string no = textBox2.Text.ToString();
+                    string name = textBox3.Text.ToString();
+
+                    DBHelper.modifySales(no, name, price, count, total);
+                    MessageBox.Show($"{no} 상품이 수정되었습니다");
+
+                    dataGridView1.DataSource = null;
+                    DataManager.Load();
+                    dataGridView1.DataSource = DataManager.Sales;
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message+"  수정오류");
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+
+
         }
     }
 }

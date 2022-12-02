@@ -13,64 +13,12 @@ namespace Market_POS
 {
     public partial class Form1 : Form
     {
-        private static SqlConnection conn = new SqlConnection();
-        public static SqlDataAdapter da;
-        public static DataSet ds;
-        public static DataTable dt;
         DataTable table = new DataTable();
-        public static void ConnectDB()
-        {//접속해주는 함수
-            try
-            {
-                string connect = string.Format("Data Source={0};" +
-                "Initial Catalog = {1};" +
-                "Persist Security Info = True;" +
-                "User ID=us;Password=1234",
-                "192.168.0.106,1433", "MarketPos");
-                conn = new SqlConnection(connect);
-                conn.Open();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-                Console.WriteLine("connect Fail");
-            }
-        }
-
-        public static void selectQuery()
-        {
-            try
-            {
-                ConnectDB(); //db 연결
-
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = conn; //어디에 커맨드 보낼지 지정
-                    cmd.CommandText = "select * from sales_tb;";
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds, "sales_tb");
-               // da.Fill(ds, "[인천광역시 서구_물가정보_20210907]");
-                dt = ds.Tables[0];
-            }
-            catch (Exception e)
-            {
-                System.Windows.Forms.MessageBox.Show(e.Message + "select");
-                System.Windows.Forms.MessageBox.Show(e.StackTrace + "select");
-                //DataManager.printLog("select" + e.StackTrace);
-                return;
-            }
-            finally
-            {
-                conn.Close(); //db 연결 해제
-            }
-        }
-
-
         public Form1()
         {
             InitializeComponent();
             //행 생성
-            selectQuery();
+            DBHelper.selectQuery();
 
             table.Columns.Add("Name", typeof(string));
             table.Columns.Add("Price", typeof(string));
@@ -80,6 +28,11 @@ namespace Market_POS
             dataGridView1.DataSource = table;
             numericUpDown1.Value = 1;
 
+
+        }
+        private void printMsg()
+        {
+            MessageBox.Show("버튼");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -156,7 +109,7 @@ namespace Market_POS
                 //합계
                 decimal all = 0;
                 for (int i = 0; i < dataGridView1.Rows.Count; ++i)
-                     {
+                {
                     all += Convert.ToDecimal(dataGridView1.Rows[i].Cells[3].Value);
                 }
                 textBox3.Text = all.ToString();
@@ -174,29 +127,7 @@ namespace Market_POS
                     String Count = dataGridView1.Rows[i].Cells[2].Value.ToString();
                     String Total = dataGridView1.Rows[i].Cells[3].Value.ToString();
 
-                    //INSERT INTO 쿼리문으로 받아온 정보를 DB에 전송한다. 
-                    string sql = string.Format("INSERT INTO sales_tb(name,price,count,total,c_num) VALUES  ('{0}',{1},{2},{3},{4})", @Name, @Price, @Count, @Total, @i+1);
-
-          
-                //DB전송을 진행하고 실패시 에러메세지 출력
-                try
-                    {
-                    ConnectDB();
-                    SqlCommand cmd = new SqlCommand();
-                    cmd.Connection = conn;
-                    cmd.CommandType = CommandType.Text;
-                    cmd.CommandText = sql;
-                    cmd.ExecuteNonQuery();
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.Message);
-                    }
-                finally
-                {
-                    conn.Close(); //db 연결 해제
-                }
-                MessageBox.Show($"{sql}");
+                DBHelper.insertSales(Name, Price, Count, Total, i);
             }           
 
             MessageBox.Show("계산되었습니다.");

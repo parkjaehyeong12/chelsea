@@ -46,7 +46,6 @@
             this.판매내역ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.재고현황ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.물가조회ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label6 = new System.Windows.Forms.Label();
             this.posdatasetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -208,17 +207,6 @@
             this.물가조회ToolStripMenuItem.Text = "물가 조회";
             this.물가조회ToolStripMenuItem.Click += new System.EventHandler(this.물가조회ToolStripMenuItem_Click);
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(787, 419);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 21);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Sever";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
             // posdatasetBindingSource
             // 
             this.posdatasetBindingSource.DataSource = typeof(Market_POS.pos_dataset);
@@ -228,7 +216,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(888, 480);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -276,7 +263,6 @@
         private System.Windows.Forms.ToolStripMenuItem 판매내역ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 재고현황ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 물가조회ToolStripMenuItem;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.BindingSource posdatasetBindingSource;
     }
 }
