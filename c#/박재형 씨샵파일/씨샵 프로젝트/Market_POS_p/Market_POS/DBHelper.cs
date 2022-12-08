@@ -68,17 +68,18 @@ namespace Market_POS
         }
 
         //데이터 추가
-        public static void insertSales(string name, string price, string count, string total, int i)
+        public static void insertSales(string name, string price, string count, string total)
         {
+            
             try
             {
                 ConnectDB(); //db 연결
 
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = conn; //어디에 커맨드 보낼지 지정
-                cmd.CommandText = string.Format("INSERT INTO sales_tb(name,price,count,total,c_num) VALUES  ('{0}',{1},{2},{3},{4})", @name, @price, @count, @total, (@i + 1));
+                cmd.CommandText = string.Format("INSERT INTO sales_tb(name,price,count,total,c_num) VALUES  ('{0}',{1},{2},{3},GETDATE())", @name, @price, @count, @total);
                 cmd.ExecuteNonQuery();
-
+             
             }
             catch (Exception e)
             {

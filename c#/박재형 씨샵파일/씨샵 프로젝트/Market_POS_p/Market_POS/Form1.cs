@@ -126,6 +126,8 @@ namespace Market_POS
                 string Count = dataGridView1.Rows[i].Cells[2].Value.ToString();
                 string Total = dataGridView1.Rows[i].Cells[3].Value.ToString();
 
+
+
                 int nowStock = DBHelper2.NowStock(Name, Count);
                 if (nowStock >= int.Parse(Count))
                 {
@@ -137,23 +139,14 @@ namespace Market_POS
                     dataGridView1.Rows.RemoveAt(i);
                     continue;
                 }
-                if (i == dataGridView1.Rows.Count - 1)
-                {
-                    MessageBox.Show("계산되었습니다.");
-                    DBHelper.insertSales(Name, Price, Count, Total, i);
 
-                    //데이터 그리드뷰 초기화
-                    int rowCount = dataGridView1.Rows.Count;
-                    for (int n = 0; n < rowCount; n++)
-                    {
-                        if (dataGridView1.Rows[0].IsNewRow == false)
-                            dataGridView1.Rows.RemoveAt(0);
-                    }
+                DBHelper.insertSales(Name, Price, Count, Total);
 
-                    //합계창 초기화
-                    textBox3.Text = "0";
-                }
+
             }
+            MessageBox.Show("계산되었습니다.");
+            //합계창 초기화
+            textBox3.Text = "0";
 
         }
 
