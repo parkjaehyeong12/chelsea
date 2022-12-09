@@ -45,6 +45,7 @@
             this.재고현황ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.물가조회ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.posdatasetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.점포수ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -163,7 +164,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.판매내역ToolStripMenuItem,
             this.재고현황ToolStripMenuItem,
-            this.물가조회ToolStripMenuItem});
+            this.물가조회ToolStripMenuItem,
+            this.점포수ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(888, 24);
@@ -194,6 +196,13 @@
             // posdatasetBindingSource
             // 
             this.posdatasetBindingSource.DataSource = typeof(Market_POS.pos_dataset);
+            // 
+            // 점포수ToolStripMenuItem
+            // 
+            this.점포수ToolStripMenuItem.Name = "점포수ToolStripMenuItem";
+            this.점포수ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.점포수ToolStripMenuItem.Text = "점포 수";
+            this.점포수ToolStripMenuItem.Click += new System.EventHandler(this.점포수ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -244,6 +253,7 @@
         private System.Windows.Forms.ToolStripMenuItem 재고현황ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 물가조회ToolStripMenuItem;
         private System.Windows.Forms.BindingSource posdatasetBindingSource;
+        private System.Windows.Forms.ToolStripMenuItem 점포수ToolStripMenuItem;
     }
 }
 

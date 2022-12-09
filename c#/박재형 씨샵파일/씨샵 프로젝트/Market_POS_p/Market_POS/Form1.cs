@@ -125,7 +125,7 @@ namespace Market_POS
                 string Price = dataGridView1.Rows[i].Cells[1].Value.ToString();
                 string Count = dataGridView1.Rows[i].Cells[2].Value.ToString();
                 string Total = dataGridView1.Rows[i].Cells[3].Value.ToString();
-
+                
 
 
                 int nowStock = DBHelper2.NowStock(Name, Count);
@@ -140,15 +140,22 @@ namespace Market_POS
                     continue;
                 }
 
-                DBHelper.insertSales(Name, Price, Count, Total);
+           
+                    DBHelper.insertSales(Name, Price, Count, Total);
 
-
+                
+                
             }
-            MessageBox.Show("계산되었습니다.");
-            //합계창 초기화
-            textBox3.Text = "0";
+                    textBox3.Text = "0";
+                    MessageBox.Show("계산되었습니다.");
+
+                    //합계창 초기화
 
         }
 
+        private void 점포수ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form5().ShowDialog();
+        }
     }
 }

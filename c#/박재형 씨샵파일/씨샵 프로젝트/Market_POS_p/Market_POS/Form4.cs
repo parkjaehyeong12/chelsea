@@ -51,16 +51,13 @@ namespace Market_POS
         private void button1_Click(object sender, EventArgs e)
         {
             chart1.Series[0].Points.Clear();
-
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
-
                 if (textBox1.Text.ToString() == (dataGridView1.Rows[i].Cells[0].Value.ToString()))
                 {
                     int a = int.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
                     int b = int.Parse(dataGridView1.Rows[i].Cells[4].Value.ToString());
                     string c = dataGridView1.Rows[i].Cells[5].Value.ToString();
-
 
                     MessageBox.Show(dataGridView1.Rows[i].Cells[2].Value.ToString());
                     chart1.Series[0].Name = "변동";
@@ -81,10 +78,14 @@ namespace Market_POS
                     {
                         label1.ForeColor = Color.Red;
                     }
-
                 }
             }
             textBox1.Text = "";
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
         }
     }
 }
